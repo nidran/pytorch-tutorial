@@ -1,23 +1,28 @@
+# Understaning DL
 
-NN - most common DL algo
-DL - many layers to learn from input data
+Neural Networks (NN) - most common DL algo
+DL - baiscally has many layers to learn from input data
 Neurons - active learning units in NN
 
+## How is it different from traditional ML systems?
 not a single monolithic system
 diff layers share responsibility
 
+## DL & Layers
 lower layers - extract granular info 
 higher layers - abstraction into higher features 
 
+Eg
 L0 - pixel
-L1 : edge
-L2: Object
-L3 : feature 
+L1 - edge
+L2 - Object
+L3 - feature 
 
-Visible layer - input layer, output layer
-Hidden layers - extracting granular data, patterns,
+### Visible layer - input layer, output layer
+### Hidden layers - extracting granular data, patterns,
+
+Common type of NN - Feed forward NN
 Feed forward NN - input is output of previous layer
-
 
 Each layer - interconnetced neurons
 Allows for hierachical learning or feature learning
